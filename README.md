@@ -51,7 +51,7 @@ Toastr JS by CodeSeven :
 # Sites That Use :
 
 - https://minapolitan.com
-- http://sipras.host
+- https://sipras.host
 
 NB : Source Code ini diterbitkan hanya untuk tujuan pendidikan saja | This source code is published just for educational purpose only
 
