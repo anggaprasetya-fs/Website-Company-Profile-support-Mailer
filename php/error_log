@@ -1,0 +1,39 @@
+[29-Jan-2021 08:57:19 UTC] PHP Warning:  stream_socket_enable_crypto(): Peer certificate CN=`id.serverkeren.xyz' did not match expected CN=`mail.sipras.host' in /home/sipras/public_html/php/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 94
+[29-Jan-2021 08:57:19 UTC] PHP Fatal error:  Uncaught Swift_TransportException: Unable to connect with TLS encryption in /home/sipras/public_html/php/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php:349
+Stack trace:
+#0 /home/sipras/public_html/php/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#1 /home/sipras/public_html/php/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#2 /home/sipras/public_html/php/send.php(24): Swift_Mailer->send(Object(Swift_Message))
+#3 {main}
+  thrown in /home/sipras/public_html/php/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php on line 349
+[29-Jan-2021 09:04:02 UTC] PHP Notice:  Undefined index: email in /home/sipras/public_html/php/send.php on line 5
+[29-Jan-2021 09:04:02 UTC] PHP Notice:  Undefined index: nama in /home/sipras/public_html/php/send.php on line 6
+[29-Jan-2021 09:04:02 UTC] PHP Notice:  Undefined index: subject in /home/sipras/public_html/php/send.php on line 7
+[29-Jan-2021 09:04:02 UTC] PHP Notice:  Undefined index: message in /home/sipras/public_html/php/send.php on line 8
+[29-Jan-2021 09:04:05 UTC] PHP Warning:  stream_socket_enable_crypto(): Peer certificate CN=`id.serverkeren.xyz' did not match expected CN=`mail.sipras.host' in /home/sipras/public_html/php/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 94
+[29-Jan-2021 09:04:05 UTC] PHP Fatal error:  Uncaught Swift_TransportException: Unable to connect with TLS encryption in /home/sipras/public_html/php/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php:349
+Stack trace:
+#0 /home/sipras/public_html/php/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#1 /home/sipras/public_html/php/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#2 /home/sipras/public_html/php/send.php(24): Swift_Mailer->send(Object(Swift_Message))
+#3 {main}
+  thrown in /home/sipras/public_html/php/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php on line 349
+[29-Jan-2021 09:04:17 UTC] PHP Notice:  Undefined index: email in /home/sipras/public_html/php/send.php on line 5
+[29-Jan-2021 09:04:17 UTC] PHP Notice:  Undefined index: nama in /home/sipras/public_html/php/send.php on line 6
+[29-Jan-2021 09:04:17 UTC] PHP Notice:  Undefined index: subject in /home/sipras/public_html/php/send.php on line 7
+[29-Jan-2021 09:04:17 UTC] PHP Notice:  Undefined index: message in /home/sipras/public_html/php/send.php on line 8
+[29-Jan-2021 09:04:18 UTC] PHP Warning:  stream_socket_enable_crypto(): Peer certificate CN=`id.serverkeren.xyz' did not match expected CN=`mail.sipras.host' in /home/sipras/public_html/php/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 94
+[29-Jan-2021 09:04:18 UTC] PHP Fatal error:  Uncaught Swift_TransportException: Unable to connect with TLS encryption in /home/sipras/public_html/php/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php:349
+Stack trace:
+#0 /home/sipras/public_html/php/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#1 /home/sipras/public_html/php/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#2 /home/sipras/public_html/php/send.php(24): Swift_Mailer->send(Object(Swift_Message))
+#3 {main}
+  thrown in /home/sipras/public_html/php/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php on line 349
+[29-Jan-2021 09:09:47 UTC] PHP Fatal error:  Uncaught Swift_TransportException: Connection could not be established with host smtp://mail.sipras.host :stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/sipras/public_html/php/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:261
+Stack trace:
+#0 [internal function]: Swift_Transport_StreamBuffer->{closure}(2, 'stream_socket_c...', '/home/sipras/pu...', 264, Array)
+#1 /home/sipras/public_html/php/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(264): stream_socket_client('tcp://smtp://ma...', 0, 'php_network_get...', 30, 4, Resource id #98)
+#2 /home/sipras/public_html/php/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(58): Swift_Transport_StreamBuffer->establishSocketConnection()
+#3 /home/sipras/public_html/php/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(143): Swift_Transport_StreamBuffer->initialize(Array)
+#4 /home/sipras/public_htm in /home/sipras/public_html/php/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 261
