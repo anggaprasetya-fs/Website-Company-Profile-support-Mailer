@@ -48,6 +48,13 @@ PHP Mail() Function :
 Toastr JS by CodeSeven :
 - https://github.com/CodeSeven/toastr
 
+# Sites That Use :
+
+- https://minapolitan.com
+- http://sipras.host
+
+NB : Source Code ini diterbitkan hanya untuk tujuan pendidikan saja | This source code is published just for educational purpose only
+
 # Tentang Author / About Author
 
 Contact me :
